@@ -1,0 +1,23 @@
+{
+  "postgres": {
+    "version": "17.8.0-beta.16",
+    "archive": "postgres-darwin-arm64.tgz",
+    "url": "https://registry.npmmirror.com/@embedded-postgres/darwin-arm64/-/darwin-arm64-17.8.0-beta.16.tgz",
+    "integrity": "sha512-+yD+QpmAkXCRgtmfJzbAUQG9zBMvSqeV5zR4OVzB3otAnCyP7520q/3yXNvHu9eRVa5YbObBbKem4rWjl0peuQ==",
+    "directory": "postgres"
+  },
+  "redis": {
+    "version": "7.4.12",
+    "archive": "redis-7.4.12.tar.gz",
+    "url": "https://download.redis.io/releases/redis-7.4.12.tar.gz",
+    "sha256": "56588ee1648539556f2b6cf4e873e3734afbbe40fa952fec2fcd6b6d7dae2924",
+    "directory": "redis"
+  },
+  "temporal": {
+    "version": "1.9.1",
+    "archive": "temporal_cli_1.9.1_darwin_arm64.tar.gz",
+    "url": "https://github.com/temporalio/cli/releases/download/v1.9.1/temporal_cli_1.9.1_darwin_arm64.tar.gz",
+    "sha256": "41e0425378fcb4fb5766340b97435e20fe47bbff2d7bf644ec2d51f7662b7c56",
+    "directory": "temporal"
+  }
+}

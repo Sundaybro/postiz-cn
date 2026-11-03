@@ -1,0 +1,11 @@
+{
+  "name": "postiz-local-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "dev": "node --experimental-strip-types src/index.ts",
+    "test": "node --experimental-strip-types --test test/*.test.mjs"
+  }
+}
